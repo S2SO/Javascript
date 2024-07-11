@@ -1,0 +1,5 @@
+자바스크립트란 무엇인가
+
+html: HyperText Markup Language 브라우저에서 돌아가는 파일
+css: cascading style sheet html 꾸며주는 파일
+js: 브라우저(html, css, 콘솔, 네트워크 등)을 조작하기 위한 언어
