@@ -33,17 +33,13 @@
 // alert(lowOrUp())
 
 // const wordFromNum = () => {
-//     const word = prompt("영단어 입력")
-//     const num = prompt("숫자 입력")
-//     return word.slice(0,num)
-// }
-// alert(wordFromNum())
+//   const word = prompt("영단어 입력");
+//   const num = prompt("숫자 입력");
+//   return word.slice(0, num);
+// };
+// alert(wordFromNum());
 
-const beArray = () => {
-    const arr = []
-    arr.push(prompt("입력"))
-    arr.push(prompt("입력"))
-    arr.push(prompt("입력"))
-    return arr;
-}
-console.log(beArray())
+const beArray = (x, y, z) => {
+  return [x, y, z];
+};
+console.log(beArray());
