@@ -1,0 +1,22 @@
+.teater {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.front {
+  border: 1px solid orange;
+}
+.middle {
+  border: 1px solid green;
+}
+.back {
+  border: 1px solid red;
+}
